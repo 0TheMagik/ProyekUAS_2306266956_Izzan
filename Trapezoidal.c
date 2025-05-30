@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int n = 6; // Jumlah titik data
-    double x[] = {0, 1, 2, 3, 4, 5};        
-    double q[] = {0, 120, 190, 170, 110, 60}; 
+    int n = 6; // Jumlah data
+    double x[] = {0, 1, 2, 3, 4, 5};  //data waktu      
+    double q[] = {0, 120, 190, 170, 110, 60}; // data energi panas
     
     double Q = 0.0;
-    double h = x[1] - x[0]; // Asumsikan interval waktu sama
+    double h = x[1] - x[0]; // Interval Waktu (segmen)
     
     // Trapezoidal Rule Komposit
-    Q += q[0] + q[n-1]; // q_0 dan q_n
+    Q += q[0] + q[n-1];
     for (int i = 1; i < n - 1; i++) {
-        Q += 2 * q[i]; // Titik tengah dikali 2
+        Q += 2 * q[i]; 
     }
 
     double I = (h / 2.0) * Q;
