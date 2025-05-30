@@ -13,8 +13,7 @@ Metode Trapezoidal Composite ini akan menghitung luasan dibawah kurva dengan pri
 Rumus Trapezoidal Composite:  
 
 
-$$
 
-Q = \frac{h}{2}(f(x_0)\sum_{i=1}^{n-1}(f(x_i)+f(x_{i+1})))
+Rumus Trapezoidal Composite:
 
-$$
+![equation](https://latex.codecogs.com/svg.latex?Q%20%3D%20%5Cfrac%7Bh%7D%7B2%7D%28f%28x_0%29%5Csum_%7Bi%3D1%7D%5E%7Bn-1%7D%28f%28x_i%29&plus;f%28x_%7Bi&plus;1%7D%29%29%29)
