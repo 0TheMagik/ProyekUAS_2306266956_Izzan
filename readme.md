@@ -14,7 +14,5 @@ Rumus Trapezoidal Composite:
 
 
 $$
-
 Q = \frac{h}{2}(f(x_0)\sum_{i=1}^{n-1}(f(x_i)+f(x_{i+1})))
-
 $$
