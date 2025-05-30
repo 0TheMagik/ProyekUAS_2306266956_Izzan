@@ -10,7 +10,7 @@ Program Studi Kasus ini diambil berdasarkan metode pada Part 6 dalam buku Numeri
 
 Metode Trapezoidal Composite ini akan menghitung luasan dibawah kurva dengan prinsip trapesium sehingga aproksimasi dapat di peroleh tanpa perlu menggunakan integrasi.  
 
-Rumus Trapezoidal Composite:
+Rumus Trapezoidal Composite:  
 
 
 $$
